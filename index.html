@@ -11,6 +11,17 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
   <style>
+  html, body {
+    background-color: #F3F5E7;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  div { width: 50%; height: 50%; float: left; }
+  #div1 { background: #DDD; }
+  #div2 { background: #AAA; }
+  #div3 { background: #777; }
+  #div4 { background: #444; }
   p {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     margin-top: 100px;
@@ -25,27 +36,44 @@
     color: #F1F8E9;
     font-weight: 100;
   }
-  body {
-    background-color: #9CCC65;
+  h2 {
+    text-align: center;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-weight: 200;
+    color: #424242;
+
   }
   </style>
 </head>
 
 <body>
   <script src="js/scripts.js"></script>
-  <h1> ~HIGH FIVE~ </h1>
-  <p> I'm glad you're here! My name is Lachlan Fletcher, and I am a teacher and musician. <br/> Want to get to know me? Here's my whole deal:<br/>
+  <img src="./images/bug-eyes-header.jpg" alt="Mount Tam Header" style="border: 0; width: 100%; ">
+  <!--<h2> I'm glad you're here! My name is <font color = "F1F8E9"> Lachlan Fletcher</font>, and I am a teacher and musician.</h2>-->
+  <div id="div1">
+    <iframe width="100%" height="100%" align="middle" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/234920565&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+  </div>
+  <div id="div2">
+    <iframe width="100%" height="100%" align="middle" src="https://www.youtube.com/embed/gCoMJO3BZak" frameborder="0" allowfullscreen></iframe>
+  </div>
+  <div id="div3">
+    <iframe src="https://player.twitch.tv/?channel=ebullientscenes" frameborder="0" scrolling="no" height="100%" width="100%"></iframe><a href="https://www.twitch.tv/ebullientscenes?tt_medium=live_embed&tt_content=text_link" style="padding:2px 0px 4px; display:block; width:345px; font-weight:normal; font-size:10px; text-decoration:underline;"></a>
+  </div>
+  <div id="div4">
+    <iframe style="border: 0; width: 100%; height: 100%; align: middle;" src="http://bandcamp.com/EmbeddedPlayer/album=2665573068/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/" seamless><a href="http://lachlanfletcher.bandcamp.com/album/chicago-piano">Chicago Piano by lachlan fletcher</a></iframe>
+  </div>
+  <p>Want to get to know me? Here's my whole deal:<br/>
     <ul>
-    <li><a href="https://soundcloud.com/lachlanfletcher">My Soundcloud page, which I update fairly regularly with electroacoustic and ambient studies, and works in progress.</a></li>
-    <li><a href="https://lachlanfletcher.bandcamp.com">I put finished music releases on Bandcamp. This doesn't happen so often.</a>
-    <li><a href="https://www.twitch.tv/ebullientscenes">Sometimes I stream live electronic music performances on Twitch.</a></li>
-    <li><a href="https://www.youtube.com/lachlanfletcher">I post highlights from Twitch  andmaybe other things on YouTube, the video streaming platform.</a></li>
-    <li><a href="https://twitter.com/lachlanfletcher">I occaisionally tweet. This is a good place to find out when I am streaming on Twitch, or have released new material on any platform. But mostly it's photos of wet animals and etc.</a></li>
-    <li><a href="www.linkedin.com/in/lachlanafletcher">And my LinkedIn page, because I am a human who works for a living.</a></li>
-  </ul>
+      <li><a href="https://soundcloud.com/lachlanfletcher">My Soundcloud page, which I update fairly regularly with electroacoustic and ambient studies, and works in progress.</a></li>
+      <li><a href="https://lachlanfletcher.bandcamp.com">I put finished music releases on Bandcamp. This doesn't happen so often.</a>
+        <li><a href="https://www.twitch.tv/ebullientscenes">Sometimes I stream live electronic music performances on Twitch.</a></li>
+        <li><a href="https://www.youtube.com/lachlanfletcher">I post highlights from Twitch  andmaybe other things on YouTube, the video streaming platform.</a></li>
+        <li><a href="https://twitter.com/lachlanfletcher">I occaisionally tweet. This is a good place to find out when I am streaming on Twitch, or have released new material on any platform. But mostly it's photos of wet animals and etc.</a></li>
+        <li><a href="www.linkedin.com/in/lachlanafletcher">And my LinkedIn page, because I am a human who works for a living.</a></li>
+      </ul>
 
-  </p>
+    </p>
 
 
-</body>
-</html>
+  </body>
+  </html>
